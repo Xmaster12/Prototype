@@ -269,144 +269,260 @@ body,html{
 /*-------Footer------*/
 
 
-
-
-
 footer {
-    display: flex;
-    flex-wrap: wrap;
-    position:relative;
-    bottom:0;
-    width:100%;
-    height: 300px;
-    background-color: #293B2E;
-    font-family: Verdana;
-    color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  position:relative;
+  margin: 0;
+  bottom:0;
+  width:100%;
+  height: 300px;
+  background-color: #293B2E;
+  font-family: Verdana;
+  color: white;
 
 }
 
 
-.contact{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-   background-color: #293B2E;
+
+.Kilde{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #293B2E;
   width: 20%;
-    height: 100%;
-
-}
-
-.top{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    float: top;
-    width: 100%;
-    height: 30%;
+  height: 100%;
 }
 
 
-.top .text{
+
+.left-top{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  float: top;
+  width: 100%;
+  height: 30%;
+}
+
+
+.left-top .text{
   position: relative;
-    font-family: "PT Sans";
-    cursor: pointer;
-    color: white;
-    margin: 30px;
+  font-family: "PT Sans";
+  cursor: pointer;
+  color: white;
+  margin: 30px;
 
 }
 
-.top a{
-    text-decoration: none;
+.left-top a{
+  text-decoration: none;
 }
 
-.bottom{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    float: bottom;
-    width: 100%;
-    height: 70%;
-}
-
-
-.bottom a{
-    position: relative;
-    padding: 0px 8px 0px 8px;
-    font-size: 16px;
-    color: #f2f2f2;
-}
-
-.bottom a:hover{
-    opacity: 0.8;
-    transition: 0.25s;
+.left-center{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  float: bottom;
+  width: 100%;
+  height: 70%;
 }
 
 
+.left-center a{
+  position: relative;
+  padding: 0px 8px 0px 8px;
+  font-size: 16px;
+  color: #f2f2f2;
+}
+
+.left-center a:hover{
+  opacity: 0.8;
+  transition: 0.25s;
+}
+
+
+.LogoPlacement{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.LogoMover{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.Logo2{
+  height: 60%;
+  width: 40%;
+
+}
+
+
+
+/*--- box 2---*/
 
 .support{
   display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: #293B2E;
-    width: 40%;
-    height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #293B2E;
+  line-height: 22px;
+  width: 40%;
+  height: 100%;
 }
 
 .support2{
-    position: relative;
-    width: 18%;
+  position: relative;
+  width: 18%;
 }
 
 .support2 h4{
-    margin: 40px 0px 0px 0px;
-    height: 15%;
+  margin: 40px 0px 0px 0px;
+  height: 15%;
 
 }
 
 .support2 a {
-    height: 10%;
-    color: #877356;
-    cursor: pointer;
-    text-decoration: none;
+  height: 10%;
+  color: #877356;
+  cursor: pointer;
+  text-decoration: none;
 
 }
 
 .support2 a:hover {
-   opacity: 0.5;
+  opacity: 0.5;
+  transition:  0.5s;
+
 
 }
 
 .support3{
-    position: relative;
-    width: 25%;
+  position: relative;
+  width: 25%;
+
 }
 
 .support3 h4{
-    margin: 40px 0px 0px 0px;
-    height: 15%;
+  margin: 40px 0px 0px 0px;
+  height: 15%;
 
 }
 
 .support3 a {
-    height: 10%;
-    color: #877356;
-    cursor: pointer;
-    text-decoration: none;
+  height: 10%;
+  color: #877356;
+  cursor: pointer;
+  text-decoration: none;
 
 }
 
 .support3 a:hover {
-    opacity: 0.5;
+  opacity: 0.5;
+  transition:  0.5s;
 
 }
+
+/*----Climax--*/
+
+
 
 .Climax{
-   display: none;
-    background-color: #0b304a;
-    width: 32%;
-    height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  background-color: #293B2E;
+  width: 40%;
+  height: 100%;
+  line-height: 22px;
 
 }
+
+.support4{
+  position: relative;
+  width: 30%;
+}
+
+.support4 h4{
+  margin: 40px 0px 0px 0px;
+  height: 15%;
+
+
+}
+
+.support4 a {
+  height: 10%;
+  color: #877356;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+.support4 a:hover {
+  opacity: 0.5;
+  transition:  0.5s;
+
+
+}
+
+.support5{
+
+  position: relative;
+  width: 40%;
+}
+
+.support5 h4{
+  margin: 50px 0px 0px 0px;
+  height: 15%;
+
+}
+
+.support5 a {
+  height: 10%;
+  color: #877356;
+  cursor: pointer;
+  font-size: 12px;
+  margin: 5px;
+  text-decoration: none;
+
+}
+
+.support5 a:hover {
+  opacity: 0.5;
+  transition:  0.5s;
+
+}
+
+
+/*------CopyRight---*/
+.Copy{
+
+  background-color: #293B2E;
+  width: 100%;
+
+
+}
+
+.Copy p{
+  color: #BFBFBF;
+  text-align: center;
+  font-size: 11px;
+  margin: 10px;
+}
+
+
+
+
+
+
+
 
 
 /*-------Responsiv part-------*/
